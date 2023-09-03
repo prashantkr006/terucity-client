@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Next.js Client App Setup Guide</title>
+</head>
+<body>
+    <h1>Next.js Client App Setup Guide</h1>
 
-## Getting Started
+  <p>This guide provides instructions on how to set up and run the client application built with Next.js. Ensure that you have Node.js installed on your system before proceeding.</p>
 
-First, run the development server:
+  <h2>Local Setup</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+  <p>Follow these steps to set up the client app locally:</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  <ol>
+        <li>
+            <strong>Clone the Repository</strong>
+            <pre><code>git clone &lt;repository_url&gt;</code></pre>
+            <pre><code>cd &lt;repository_directory&gt;</code></pre>
+        </li>
+        <li>
+            <strong>Install Dependencies</strong>
+            <p>Install the project dependencies using npm or yarn.</p>
+            <pre><code>npm install</code></pre>
+            <p>or</p>
+            <pre><code>yarn install</code></pre>
+        </li>
+        <li>
+            <strong>Start the Development Server</strong>
+            <p>To run the Next.js development server, use the following command:</p>
+            <pre><code>npm run dev</code></pre>
+            <p>This will start the development server and your app will be available at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</p>
+        </li>
+    </ol>
+</html>
