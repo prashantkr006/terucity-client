@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Next.js Client App Setup Guide</title>
-</head>
 <body>
     <h1>Next.js Client App Setup Guide</h1>
 
